@@ -35,7 +35,7 @@ export default function Hero() {
 
   return (
     <section id="hero" className="grid-bg" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center", padding: "80px 10vw 0 10vw", position: "relative" }}>
-      {/* Decorative SVG circles top-right */}
+
       <div style={{ position: "absolute", top: 80, right: 80, opacity: 0.15 }}>
         <svg width="200" height="200" viewBox="0 0 200 200">
           <circle cx="100" cy="100" r="80" fill="none" stroke="var(--accent)" strokeWidth="0.5" />
@@ -73,10 +73,6 @@ export default function Hero() {
               <img src={ProfilePic.src} alt="Profile Photo" style={{ width: "80%", height: "auto" }} />
             </div>
         </div>
-            
-
-
-      
       <a href="#about" style={{ position: "absolute", bottom: 40, left: "50%", transform: "translateX(-50%)", color: "var(--muted)", display: "flex", flexDirection: "column", alignItems: "center", gap: 8, textDecoration: "none", animation: "float 2s infinite" }}>
         <span className="mono" style={{ fontSize: 10, letterSpacing: 2 }}>SCROLL</span>
         <ArrowDown size={14} />

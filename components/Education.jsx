@@ -39,7 +39,7 @@ export default function Education() {
         </h2>
 
         <div style={{ position: "relative" }}>
-          {/* Vertical line */}
+
           <div style={{
             position: "absolute",
             left: 0,
@@ -59,7 +59,6 @@ export default function Education() {
                   position: "relative",
                 }}
               >
-                {/* Dot on timeline */}
                 <div style={{
                   position: "absolute",
                   left: -6,
@@ -71,7 +70,6 @@ export default function Education() {
                   boxShadow: "0 0 10px var(--accent)",
                 }} />
 
-                {/* Year badge */}
                 <span className="mono" style={{
                   fontSize: 11,
                   color: "var(--accent)",
@@ -82,7 +80,6 @@ export default function Education() {
                   {edu.year}
                 </span>
 
-                {/* Card */}
                 <div
                   style={{
                     background: "var(--surface)",

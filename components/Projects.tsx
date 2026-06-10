@@ -19,7 +19,7 @@ const projects = [
     tags: ["Next.js", "n8n", "Docker", "Grok AI"],
     type: "AI/ML",
     featured: true,
-    links: { github: "https://github.com/HARIHANSHANSDAH/content-generator", live: "ttp://203.57.85.248:4000/" },
+    links: { github: "https://github.com/HARIHANSHANSDAH/content-generator", live: "http://203.57.85.248:4000/" },
   },
   {
     id: "03",
@@ -236,32 +236,27 @@ export default function Projects() {
               </div> */}
             
             <div style={{ display: "flex", gap: 16 }}>
-  {project.links.github && project.links.github !== "NO" && (
-    <a
-      href={project.links.github}
-      style={{ color: "var(--muted)", display: "flex", alignItems: "center", gap: 6, textDecoration: "none", fontSize: 13, transition: "color 0.2s" }}
-      onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text)")}
-      onMouseLeave={(e) => (e.currentTarget.style.color = "var(--muted)")}
-    >
-      <GitBranch size={14} /> Code
-    </a>
-  )}
-  {project.links.live && project.links.live !== "NO" && (
-    <a
-      href={project.links.live}
-      style={{ color: "var(--muted)", display: "flex", alignItems: "center", gap: 6, textDecoration: "none", fontSize: 13, transition: "color 0.2s" }}
-      onMouseEnter={(e) => (e.currentTarget.style.color = "var(--accent)")}
-      onMouseLeave={(e) => (e.currentTarget.style.color = "var(--muted)")}
-    >
-      <ExternalLink size={14} /> Live <ArrowRight size={12} />
-    </a>
-  )}
-</div>
-
-
-
-
-
+                {project.links.github && project.links.github !== "NO" && (
+                  <a
+                    href={project.links.github}
+                    style={{ color: "var(--muted)", display: "flex", alignItems: "center", gap: 6, textDecoration: "none", fontSize: 13, transition: "color 0.2s" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "var(--muted)")}
+                  >
+                    <GitBranch size={14} /> Code
+                  </a>
+                )}
+                {project.links.live && project.links.live !== "NO" && (
+                  <a
+                    href={project.links.live}
+                    style={{ color: "var(--muted)", display: "flex", alignItems: "center", gap: 6, textDecoration: "none", fontSize: 13, transition: "color 0.2s" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--accent)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "var(--muted)")}
+                  >
+                    <ExternalLink size={14} /> Live <ArrowRight size={12} />
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

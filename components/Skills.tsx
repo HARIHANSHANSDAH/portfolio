@@ -128,7 +128,7 @@ export default function Skills() {
           Tools of the <span style={{ color: "var(--accent)" }}>trade.</span>
         </h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 1, background: "var(--border)", marginBottom: 80 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 1, marginBottom: 80 }}>
           {skillGroups.map(({ category, icon, skills }) => (
             <div key={category} style={{ background: "var(--bg)", padding: "40px 32px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 32 }}>
@@ -141,13 +141,9 @@ export default function Skills() {
             </div>
           ))}
         </div>
-
-        {/* Tech Stack heading */}
         <h3 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, letterSpacing: -1, marginBottom: 48, textAlign: "center" }}>
           TECH <span style={{ color: "var(--accent)" }}>STACK</span>
         </h3>
-
-        {/* Tech Stack grid */}
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 16 }}>
           {techStack.map(({ name, icon }) => (
             <div
@@ -184,7 +180,6 @@ export default function Skills() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

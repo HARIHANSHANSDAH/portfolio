@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { Send, Link, AtSign, Mail } from "lucide-react";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -52,7 +51,7 @@ export default function Contact() {
     <section id="contact" style={{ padding: "120px 10vw", borderTop: "1px solid var(--border)", background: "var(--surface)" }}>
       <div style={{ maxWidth: 1000, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80 }}>
 
-        {/* Left */}
+   
         <div>
           <p className="mono" style={{ color: "var(--accent)", fontSize: 12, letterSpacing: 3, marginBottom: 16 }}>
             05. CONTACT
