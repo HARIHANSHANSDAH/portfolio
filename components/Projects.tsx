@@ -136,8 +136,8 @@ export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const filtered = projects.filter(
-    (p) => activeFilter === "All" || p.type === activeFilter
-  );
+  (p) => p && (activeFilter === "All" || p.type === activeFilter)
+);
 
   return (
     <section id="projects" style={{ padding: "120px 10vw", borderTop: "1px solid var(--border)" }}>
@@ -174,7 +174,7 @@ export default function Projects() {
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: 1}}>
-          {filtered.map((project) => (
+          {filtered.map((project) => project && (
             <div
               key={project.id}
               style={{
