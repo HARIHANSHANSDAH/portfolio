@@ -98,6 +98,7 @@ const techStack = [
   { name: "Nginx",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
   { name: "Figma",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
   { name: "VS Code",     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+  { name: "Google Colab", icon: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-webp@latest/light/colab-color.webp" },
   { name: "Jupyter",     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
   { name: "Android Studio", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" },  
   { name: "CodeSandBox",       icon: "https://assets.streamlinehq.com/image/private/w_50,h_50,ar_1/f_auto/v1/icons/1/codesandbox-icon-irmzdb5ge3jbdttfd7y0vl.png/codesandbox-icon-h057iw3goocsnpknp8frxc.png?_a=DATAiZAAZAA0" },
