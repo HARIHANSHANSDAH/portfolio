@@ -15,7 +15,7 @@ export default function About() {
         <div>
           <p className="mono" style={{ color: "var(--accent)", fontSize: 12, letterSpacing: 3, marginBottom: 16 }}>01. ABOUT</p>
           <h2 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 800, lineHeight: 1.1, marginBottom: 32, letterSpacing: -1 }}>
-            Shipping code,<br /><span style={{ color: "var(--accent)" }}>not excuses.</span>
+            Crafting tech<br /><span style={{ color: "var(--accent)" }}>that solves actual problems.</span>
           </h2>
           
         </div>
