@@ -10,7 +10,7 @@ const projects = [
     tags: ["React Native", "Docker"],
     type: "Frontend",
     featured: true,
-    links: { github: "https://github.com/HARIHANSHANSDAH/autosaathi-jsr", live: "http://203.57.85.248:3000/" },
+    links: { github: "https://github.com/HARIHANSHANSDAH/autosaathi-jsr", live: "https://autosaathijsr.online/" },
   },
   {
     id: "02",
@@ -19,7 +19,7 @@ const projects = [
     tags: ["Next.js", "n8n", "Docker", "Grok AI"],
     type: "AI/ML",
     featured: true,
-    links: { github: "https://github.com/HARIHANSHANSDAH/content-generator", live: "http://203.57.85.248:4000/" },
+    links: { github: "https://github.com/HARIHANSHANSDAH/content-generator", live: "NO" },
   },
   {
     id: "03",
