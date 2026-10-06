@@ -3,7 +3,7 @@
 const stats = [
   { value: "5+", label: "Domains Explored" },
   { value: "10+", label: "Projects Shipped" },
-  { value: "35+", label: "Tech Stack" },
+  { value: "40+", label: "Tech Stack" },
   { value: "∞", label: "Curiosity to Learn" },
 ];
 
